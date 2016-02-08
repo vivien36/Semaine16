@@ -74,7 +74,17 @@ compteur += 1
 if distanceT < plusPetit
 plusPetit = distanceT
 itineraire = villes[0][0] + " " + villes[1][0] + " " + villes[2][0] + " " + villes[3][0] + " " + villes[4][0] + " " + villes[5][0] + " " + villes[6][0] + " " + villes[7][0] + " " + villes[8][0] + " " + villes[9][0] + " " + villes[10][0] + " " + villes[0][0]
-
+ville1 = "distance entre #{villes[0][0]} et #{villes[1][0]}: #{km1et2} km"
+ville2 = "distance entre #{villes[1][0]} et #{villes[2][0]}: #{km2et3} km"
+ville3 = "distance entre #{villes[2][0]} et #{villes[3][0]}: #{km3et4} km"
+ville4 = "distance entre #{villes[3][0]} et #{villes[4][0]}: #{km4et5} km"
+ville5 = "distance entre #{villes[4][0]} et #{villes[5][0]}: #{km5et6} km"	
+ville6 = "distance entre #{villes[5][0]} et #{villes[6][0]}: #{km6et7} km"
+ville7 = "distance entre #{villes[6][0]} et #{villes[7][0]}: #{km7et8} km"
+ville8 = "distance entre #{villes[7][0]} et #{villes[8][0]}: #{km8et9} km"
+ville9 = "distance entre #{villes[8][0]} et #{villes[9][0]}: #{km9et10} km"
+ville10 = "distance entre #{villes[9][0]} et #{villes[10][0]}: #{km10et11} km"
+ville11 = "distance entre #{villes[10][0]} et #{villes[0][0]}: #{km11et1} km"
 	puts "pourcours plus petit trouvé"
 	puts itineraire
 else
@@ -85,17 +95,17 @@ villes.shuffle!
 
 end
 #Affichage
-puts "distance entre #{villes[0][0]} et #{villes[1][0]}: #{km1et2} km"
-puts "distance entre #{villes[1][0]} et #{villes[2][0]}: #{km2et3} km"	
-puts "distance entre #{villes[2][0]} et #{villes[3][0]}: #{km3et4} km"	
-puts "distance entre #{villes[3][0]} et #{villes[4][0]}: #{km4et5} km"	
-puts "distance entre #{villes[4][0]} et #{villes[5][0]}: #{km5et6} km"	
-puts "distance entre #{villes[5][0]} et #{villes[6][0]}: #{km6et7} km"			
-puts "distance entre #{villes[6][0]} et #{villes[7][0]}: #{km7et8} km"
-puts "distance entre #{villes[7][0]} et #{villes[8][0]}: #{km8et9} km"
-puts "distance entre #{villes[8][0]} et #{villes[9][0]}: #{km9et10} km" 
-puts "distance entre #{villes[9][0]} et #{villes[10][0]}: #{km10et11} km"
-puts "distance entre #{villes[10][0]} et #{villes[0][0]}: #{km11et1} km"
+puts ville1
+puts ville2
+puts ville3
+puts ville4
+puts ville5
+puts ville6
+puts ville7
+puts ville8
+puts ville9
+puts ville10
+puts ville11
 puts ""
 puts "longueur du parcours de base #{distanceB} km"
 puts""
